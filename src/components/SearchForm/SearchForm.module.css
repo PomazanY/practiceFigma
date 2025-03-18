@@ -1,0 +1,46 @@
+form{
+    display: flex;
+}
+
+.field_wrapper {
+    background-color: white;
+    padding: 35px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background-color: var(--dark-color);
+    padding: 41px 70px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    line-height: 1;
+    border: none;
+}
+
+.form_group{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.text_field{
+    font-size: 18px;
+    color: black;
+    border: none;
+}
+
+.text_field:focus{
+    outline: none;
+}
+
+.text_field::placeholder{
+    color: black;
+}
+
+.divider{
+    margin: 0 132px;
+    color: rgba(0, 0, 0, 0.5)
+}
